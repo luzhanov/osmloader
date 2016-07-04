@@ -30,7 +30,7 @@ public class EndToEndTest {
         TestFullConsumer consumer = new TestFullConsumer(queue) {
             @Override
             public void onGetAllData(List<MappingResult> resultList) {
-                assertThat(resultList).hasSize(2802);
+                assertThat(resultList).hasSize(149);
             }
         };
 

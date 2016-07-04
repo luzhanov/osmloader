@@ -43,7 +43,7 @@ public class OsmPbfParserTest {
         TestFullConsumer consumer = new TestFullConsumer(queue) {
             @Override
             public void onGetAllData(List<MappingResult> resultList) {
-                assertThat(resultList).hasSize(628);
+                assertThat(resultList).hasSize(49);
             }
         };
 
@@ -62,7 +62,7 @@ public class OsmPbfParserTest {
         TestFullConsumer consumer = new TestFullConsumer(queue) {
             @Override
             public void onGetAllData(List<MappingResult> resultList) {
-                assertThat(resultList).hasSize(95);
+                assertThat(resultList).hasSize(2);
             }
         };
 
